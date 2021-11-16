@@ -127,9 +127,11 @@ function greeting( obj ) {
 
 //Code Here
 function totalPopulation(obj){
-  const {utah, california, texas, arizona} = obj
+ 
+  const {utah: newUtah, california: newCalifornia, texas: newTexas, arizona: newArizona} = obj
   
-  let total = utah + california + texas + arizona
+  // let total = utah + california + texas + arizona
+  let total = newUtah + newArizona + newCalifornia + newTexas // New variables 
   
   return total
 }
@@ -154,7 +156,21 @@ function totalPopulation(obj){
 
 //Code Here
 
+function ingredients(obj){
+  const {carb: newCarb, fat: newFat, protein: newProtein} = obj
+  let arr = []
+  arr.push(newCarb, newProtein, newFat)
 
+  return arr
+}
+
+// const obj = {
+//     carb: 15, 
+//     fat: 10, 
+//     protein: 10, 
+//   }
+//   let answer = ingredients(obj)
+//   console.log(answer)
 
 //////////////////////////// PROBLEM 10 ////////////////////////////
 // Do not edit the code below.
