@@ -253,7 +253,7 @@ class Wizard {
 
 let bart = new Wizard ("Bart", 23, "Abra Kadabra")
 // console.log(bart)
-bart.castSpell()
+// bart.castSpell()
 
 
 //////////////////////////// PROBLEM 14 ////////////////////////////
@@ -280,6 +280,37 @@ bart.castSpell()
 */
 
 //Code Here
+
+class Phone {
+  constructor(brand, model, storage, color, price){
+    this.brand = brand, 
+    this.model = model,
+    this.storage = storage,
+    this.color = color, 
+    this.price = price,
+    this.soldProperty = false
+  }
+    sell(){
+      this.soldProperty = true
+      console.log(`${this.brand} ${this.model} has been sold.`)
+    }
+
+    changePrice(newPrice){
+      this.price = newPrice
+    }
+  
+}
+
+let x = new Phone ("Apple", "13 Plus", "150", "White", 999)
+// console.log(x)
+// x.sell()
+// x.changePrice(500)
+// console.log(x)
+
+
+
+
+
 
   
 /*
