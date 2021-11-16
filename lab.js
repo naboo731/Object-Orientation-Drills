@@ -301,18 +301,12 @@ class Phone {
   
 }
 
-let x = new Phone ("Apple", "13 Plus", "150", "White", 999)
-// console.log(x)
+// let x = new Phone ("Apple", "13 Plus", 150, "White", 999)
+// // console.log(x)
 // x.sell()
 // x.changePrice(500)
 // console.log(x)
 
-
-
-
-
-
-  
 /*
     Next make three new phone instances using your class.
     Send in values of your choice. They should match these data types:
@@ -324,6 +318,14 @@ let x = new Phone ("Apple", "13 Plus", "150", "White", 999)
 */
 
 //Code Here
+let apple = new Phone ("Apple", "13 Plus Max", 600, "Black", 999)
+let samsung = new Phone ("Samsung", "Z Flip", 50, "Black", 500)
+let google = new Phone ("Google", "Pixel", 100, "White", 600)
+
+// console.log(apple)
+// console.log(samsung)
+// console.log(google)
+
 
 /* 
   Call the changePrice function on one of your phones, 
@@ -334,6 +336,8 @@ let x = new Phone ("Apple", "13 Plus", "150", "White", 999)
 
 //Code Here 
 
+samsung.changePrice(400)
+// console.log(samsung)
 
 /*
   Now call the sell method on one of your other phone objects
@@ -343,6 +347,8 @@ let x = new Phone ("Apple", "13 Plus", "150", "White", 999)
 
 //Code Here 
 
+google.sell()
+// console.log(google)
 
 //////////////////////////// PROBLEM 15 ////////////////////////////
 
