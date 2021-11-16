@@ -238,6 +238,24 @@ let whiskers = new Cat("Whiskers", 5, "Black and white")
 
 //Code here
 
+class Wizard {
+  constructor(name, age, favoriteSpell){
+    this.name = name,
+    this.age = age, 
+    this.favoriteSpell = favoriteSpell
+  }
+  castSpell(){                                    //do not need function keyword; code assumes its a function in a class
+    console.log(`${this.name} has cast ${this.favoriteSpell}`)
+
+  }
+
+}
+
+let bart = new Wizard ("Bart", 23, "Abra Kadabra")
+// console.log(bart)
+bart.castSpell()
+
+
 //////////////////////////// PROBLEM 14 ////////////////////////////
 /*
     Write a class called Phone. We'll use it as if we were creating
