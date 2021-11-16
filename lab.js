@@ -178,7 +178,7 @@ var user = {
   name: 'Bryan',
   age: 24,
   pwHash: 'U+Ldlngx2BYQk',
-  email: 'BryanSmith33@gmail.com',
+  email: 'BryanSmith33@gmail.com',  
   birthday: '05/02/1990',
   username: 'bryansmith33'
 };
@@ -191,6 +191,10 @@ var user = {
 */
 
 //Code Here
+user.name = "Bryan G. Smith"
+user.email = "bryan.smith@devmounta.in"
+// console.log(user)
+
 
 
 //////////////////////////// PROBLEM 11 ////////////////////////////
