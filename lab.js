@@ -126,8 +126,21 @@ function greeting( obj ) {
 */
 
 //Code Here
-
-
+function totalPopulation(obj){
+  const {utah, california, texas, arizona} = obj
+  
+  let total = utah + california + texas + arizona
+  
+  return total
+}
+// const obj = {
+//   utah: 15, 
+//   california: 10, 
+//   texas: 10, 
+//   arizona: 5
+// }
+// let answer = totalPopulation(obj)
+// console.log(answer)
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
