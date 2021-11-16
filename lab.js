@@ -5,7 +5,10 @@
 */
 
 //Code here
-
+let me = {
+  name: "Nicki",
+  age: 26
+}
 
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
@@ -16,7 +19,12 @@
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+let dog = {
+  name: "Oliver",
+  color: "Gold",
+  age: 1,
+  goodBoyGoodGirl: true
+}
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
