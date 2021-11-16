@@ -204,6 +204,8 @@ user.email = "bryan.smith@devmounta.in"
 
 //Code Here
 
+delete user.age
+// console.log(user)
 
 //////////////////////////// PROBLEM 12 ////////////////////////////
 /*
