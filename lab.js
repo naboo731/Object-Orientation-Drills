@@ -216,7 +216,17 @@ delete user.age
 
 //Code here
 
+class Cat {
+  constructor(name, age, color){
+    this.name = name,
+    this.age = age, 
+    this.color = color
+  }
+}
 
+let whiskers = new Cat("Whiskers", 5, "Black and white")
+
+// console.log(whiskers.name)
 
 //////////////////////////// PROBLEM 13 ////////////////////////////
 /*
