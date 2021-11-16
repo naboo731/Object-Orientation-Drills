@@ -71,7 +71,9 @@ favoriteThings.show = "The Office"
 */
 
 //Code here
-
+favoriteThings.food = "chicken nuggets"
+favoriteThings.book = "Harry Potter"
+// console.log(favoriteThings)
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
@@ -90,6 +92,8 @@ var carDetails = {
 
 //Code Here
 
+const {color: newColor, make: newMake, model: newModel, year: newYear} = carDetails
+// console.log(newColor)
 
 
 //////////////////////////// PROBLEM 7 ////////////////////////////
@@ -102,6 +106,7 @@ var carDetails = {
 
 function greeting( obj ) {
   //Code Here
+  const {firstName, lastName, title} = obj
   
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
